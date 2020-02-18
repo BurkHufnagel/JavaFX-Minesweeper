@@ -1,0 +1,26 @@
+plugins {
+    id 'org.springframework.boot' version '2.2.4.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.9.RELEASE'
+    id 'groovy'
+    id 'java'
+    id 'idea'
+}
+
+group 'devnexus'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.springframework.boot:spring-boot-starter"
+
+    implementation "org.openjfx:javafx-base:11:mac"
+    implementation "org.openjfx:javafx-graphics:11:mac"
+    implementation "org.openjfx:javafx-controls:11:mac"
+    implementation "org.openjfx:javafx-fxml:11:mac"
+
+    implementation 'org.codehaus.groovy:groovy-all:2.3.11'
+    testImplementation group: 'junit', name: 'junit', version: '4.12'
+}

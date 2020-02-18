@@ -1,2 +1,2 @@
 # JavaFX-Minesweeper
-Use RDD make it work
+Use Research-Driven Development to make it work
